@@ -1,4 +1,4 @@
-# Social Media Gaming (Version6)
+# Social Media Gaming
 
 The very first video game I coded. I used p5.js. Play it on a computer at http://educationalgaming.org/
 
