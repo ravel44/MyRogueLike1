@@ -2,7 +2,7 @@
 
 The very first video game I coded. I used p5.js. Play it on a computer at http://educationalgaming.org/
 
-It is actually a **proof of concept** that music composers can now be **paid** for each stream of their music (with a **much higher rate than Spotify**) each time a video is played at **no cost to the player**. 
+It is actually a **proof of concept** that music composers can now be **paid** for each stream of their music (with a **much higher rate than Spotify**) each time a video game is played at **no cost to the player**. 
 More widely, it shows that you can monetize any content online by using the Musicoin platform's music player on auto play. Keep reading!
 
 # Unique features
