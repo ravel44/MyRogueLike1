@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+<!-- TO PREVENT INDEXING https://support.google.com/webmasters/answer/93710?hl=en -->
+    <meta name="robots" content="noindex">
+    <title>Pascal's Educational Video Game</title>
+      <script src="../libraries/p5.js" type="text/javascript"></script>
+      <script src="../libraries/p5.dom.js" type="text/javascript"></script>
+      <script src="../libraries/p5.sound.js" type="text/javascript"></script>
+      <script src="sketch.js" type="text/javascript"></script>
+
+    <!--EMAILJS.COM DEVELOPER KIT ACCESS-->
+      <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.1.0/email.min.js"></script>
+    <!--ACCESS THROUGH MY USERNAME-->
+      <script type="text/javascript">
+         (function(){
+            emailjs.init("user_uNRRZSXuFfkweFSY3vOpF");
+         })();
+      </script>
+
+      <!-- PROCESSING THE FORM USING EMAILJS.COM -->
+      <script type="text/javascript">
+            window.onload = function() {
+                document.getElementById('contact-form').addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    this.subject.value = "Infos from Pascal s game!";
+
+                    emailjs.sendForm('contact_service', '2infos', this);
+                });
+            }
+        </script>
+    <!-- STYLING THE FORM -->
+        <style>
+          #formstyle{
+              color: white;
+              font-size: 20px;
+              font-style: arial;
+          }
+          .button {
+              background-color: #00FF00;
+              font-style: arial;
+              border: none;
+              color: black;
+              padding: 20px 32px;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 20px;
+              margin: 4px 2px;
+              cursor: pointer;
+            }
+            .input {
+              font-style: arial;
+              text-align: center;
+              font-size: 10px;
+            }
+        </style>
+
+  </head>
+
+  <body background="../backscifi.jpg">
+
+<!-- PLAY AGAIN -->
+<input type="button" onclick="location.href='https://educationalgaming.org/';" value="PLAY AGAIN!" class="button" style="position:absolute; top: 240px; left: 500px;">
+
+<!-- FORM ------------>
+    <form id="contact-form" style="position:absolute; top: 520px; left: 530px;">
+        <input type="hidden" name="subject">
+        <input type="email" name="user_email" class="input" value="your email"><br><br>
+
+        <input onclick="this.value='SENT!'" type="submit" class="button" value="SEND!" id="myButton" style="position:absolute; top: 40px; left: -6px">
+    </form>
+<!--TWITTER-->
+    <div id="contentframe" style="position:absolute; top: 765px; left: 968px;">
+      <iframe style="width: 300px; height: 20px;" src="http://platform.twitter.com/widgets/follow_button.html?screen_name=pascalguyon" frameborder="0" scrolling="no" width="320" height="240"></iframe>
+
+
+  </body>
+</html>

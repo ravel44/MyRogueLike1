@@ -1,0 +1,19 @@
+<iframe height="1" width="1"  id="embedded-player-preview-frame" src="https://musicoin.org/embedded-player/0xab1b50afa4e68212436f7953c504b4b53136a8b3?embedded=true&autoQueue=true&preview=true" allow="autoplay"></iframe>
+
+
+1st version
+<iframe width="1" height="1" id="embedded-player-preview-frame" src="https://musicoin.org/embedded-player/0xab1b50afa4e68212436f7953c504b4b53136a8b3?embedded=true&autoQueue=true"></iframe>
+
+NEW VERSION WITH MY WEBSITE WHITELISTED BY MUSICOIN TEAM - BLOCKED BY CHROME
+<iframe hidden id="embedded-player-preview-frame" src="https://musicoin.org/embedded-player/0xab1b50afa4e68212436f7953c504b4b53136a8b3?embedded=true&autoQueue=true"  ></iframe>
+
+
+
+
+
+SEEMS TO BE THE SOLUTION TO CREATE AN IFRAME WHEN PLAYER HITS emailEntered
+var musicplayer = document.createElement("IFRAME");
+musicplayer.setAttribute("src", "https://musicoin.org/embedded-player/0xab1b50afa4e68212436f7953c504b4b53136a8b3");
+musicplayer.width=1;
+musicplayer.height=1;
+document.body.appendChild(musicplayer);
