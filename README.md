@@ -3,7 +3,8 @@
 The very first video game I coded. I used p5.js. Play it on a computer at http://educationalgaming.org/
 
 It is actually a **proof of concept** that music composers can now be **paid** for each stream of their music each time a video game is played at **no cost to the player**. 
-More widely, it shows that you can monetize any content online by using the Musicoin platform's music player on auto play. Keep reading!
+More widely, it shows that you can monetize any content online by using the Musicoin platform's music player on auto play. 
+In April 2018, Chrome removed the ability to use music players on autoplay when a web page loads, therefore I'm now triggering the Musicoin music player when the user hits 'enter' to play the game on my welcome page!
 
 # Unique features
 
