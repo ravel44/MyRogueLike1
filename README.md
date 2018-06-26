@@ -13,4 +13,4 @@ More widely, it shows that you can monetize any content online by using the Musi
 
 Read my full article on the making of this game [HERE](https://steemit.com/game/@pascalguyon/video-game-combining-social-medias-my-music-the-blockchain-technology-education).
 
-![alt text](http://topaffiliategroup.com/educationalgaming/pascalgame1.gif)
+![](https://github.com/ravel44/MyRogueLike1/pascalgame1.gif)
