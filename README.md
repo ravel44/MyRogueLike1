@@ -13,6 +13,6 @@ In April 2018, Chrome removed the ability to use music players on autoplay when 
 
 - I am getting paid in crypto currency each time the game is played at no cost to the player by leveraging the 1st music streaming blockchain platform [Musicoin](https://goo.gl/FZnm3o), which I am an ambassador for.
 
-Read my full article on the making of this game [HERE](https://steemit.com/game/@pascalguyon/video-game-combining-social-medias-my-music-the-blockchain-technology-education).
+Read my full article on the making of this game [HERE](https://pascalguyon.org/video-game1).
 
 ![Alt Text](https://github.com/ravel44/MyRogueLike1/blob/master/pascalgame1.gif)
